@@ -1,0 +1,42 @@
+.ProjectBlock {
+    margin: 10px;
+    height: 400px;
+    /* background-color: aqua; */
+    color: black;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+
+.materials,.date {
+    font-style: italic;
+    color:slategray;
+}
+
+ .ProjectBlock:hover {
+    color: transparent;
+}
+
+.child {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/test.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.ProjectBlock:hover .child,
+.ProjectBlock:focus .child {
+  transform: scale(1.2);
+}
+
+/*.transition{-webkit-transition: color 0.4s ease; -moz-transition: color 0.4s ease; -ms-transition: color 0.4s ease; -o-transition: color 0.4s ease; transition: color 0.4s ease;} */
+
+
