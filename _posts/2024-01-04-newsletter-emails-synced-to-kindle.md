@@ -13,7 +13,7 @@ When I did an initial search to see what support already existed for this proble
 The solution I built relies on a couple different pieces of existing and supported features. (Let's hope they keep being supported!)
 
 1. Substack can email you new posts when they are published. These emails are formatted with HTML.
-2. You can send documents straight to your Kindle via a special email address assigned to your Kindle. You just attach the document to an email. (You can also do this via web portal and Google Chrome extension.)
+2. You can send documents straight to your Kindle via a special email address assigned to your Kindle. You just attach the document to an email. (You can also do this via a drag-and-drop web portal and a Google Chrome extension.)
 3. Google Apps Script lets you programmatically interact with your Gmail inbox (e.g., reading, labeling, archiving, and sending emails).
 4. Google Apps Script also lets you run certain functions at specified intervals (e.g., once daily between 7-8 am).
 5. Gmail supports filtering by sender and label.
