@@ -11,11 +11,11 @@ I did an initial search to see what support for this already existed and found t
 ## Vision
 
 
-## Deployment Story
+## Pieces
 
 
 
-## Configuration
+## Set it up yourself
 
 
 
