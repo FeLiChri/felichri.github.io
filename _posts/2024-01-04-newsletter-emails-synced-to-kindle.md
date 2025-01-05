@@ -15,8 +15,9 @@ The solution I built relies on a couple different pieces of existing and support
 1. Substack can email you new posts when they are published. These emails are formatted with HTML.
 2. You can send documents straight to your Kindle via a special email address assigned to your Kindle. You just attach the document to an email. (You can also do this via web portal and Google Chrome extension.)
 3. Google Apps Script lets you programmatically interact with your Gmail inbox (e.g., reading, labeling, archiving, and sending emails).
-4. Gmail supports filtering by sender and label.
-5. Cheerio is a library that supports HTML parsing and modifying, and has been ported over for Google Apps Script thanks to TODO.
+4. Google Apps Script also lets you run certain functions at specified intervals (e.g., once daily between 7-8 am).
+5. Gmail supports filtering by sender and label.
+6. Cheerio is a library that supports HTML parsing and modifying, and has been ported over for Google Apps Script thanks to TODO.
 
 ## Vision
 
