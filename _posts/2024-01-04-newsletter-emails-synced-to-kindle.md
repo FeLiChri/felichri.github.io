@@ -6,7 +6,11 @@ I took a break from the idea, but came back to it recently and built out a worki
 
 ## Existing Solutions and Infrastructure
 
-I did an initial search to see what support for this already existed and found that I could manually send Substacks to my Kindle by turning an essay into a PDF and emailing it to my [Send to Kindle](https://www.amazon.com/sendtokindle/email) email. Forwarding the Substack emails directly to the same email didn't always work for me. I also found that someone had already solved this problem by building [Readbetter](https://www.readbetter.io/), but I was quickly hitting the 3 article / month maximum on the free tier, and $7 a month was more than I wanted to pay for something that I felt I could build as a fun weekend project.
+When I did an initial search to see what support already existed for this problem I came across [Readbetter](https://www.readbetter.io/), which pretty much does exactly what I want. Unfortunately, I was quickly hitting the 3 article / month maximum on the free tier, and $7 a month was more than I wanted to pay for something long into the future when I felt I could build my own version as a fun weekend project. If you're less interested in building out your own solution, Readbetter might be exactly the right fit.
+
+
+
+and found that I could manually send Substacks to my Kindle by turning an essay into a PDF and emailing it to my [Send to Kindle](https://www.amazon.com/sendtokindle/email) email. Forwarding the Substack emails directly to the same email didn't always work for me. I also found that someone had already solved this problem by building , but 
 
 ## Vision
 
