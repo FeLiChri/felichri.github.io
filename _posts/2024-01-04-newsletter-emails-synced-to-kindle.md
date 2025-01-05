@@ -4,13 +4,19 @@ Last year a friend of mine gifted me an old Kindle. I never quite made the jump 
 
 I took a break from the idea, but came back to it recently and built out a working solution in a weekend, using [Google Apps Script](https://developers.google.com/apps-script), [Send to Kindle](https://www.amazon.com/sendtokindle/email), and a bit of HTML munging. Best of all, the solution ended up easily extending to other newsletters that land in my email but don't route through Substack, like Oliver Burkeman's ["The Imperfectionist"](https://www.oliverburkeman.com/the-imperfectionist). 
 
-## Existing Solutions and Infrastructure
+## Other Existing Solutions
 
 When I did an initial search to see what support already existed for this problem I came across [Readbetter](https://www.readbetter.io/), which pretty much does exactly what I want. Unfortunately, I was quickly hitting the 3 article / month maximum on the free tier, and $7 a month was more than I wanted to pay for something long into the future when I felt I could build my own version as a fun weekend project. If you're less interested in building out your own solution, Readbetter might be exactly the right fit.
 
+## Existing Infrastructure
 
+The solution I built relies on a couple different pieces of existing and supported features. (Let's hope they keep being supported!)
 
-and found that I could manually send Substacks to my Kindle by turning an essay into a PDF and emailing it to my [Send to Kindle](https://www.amazon.com/sendtokindle/email) email. Forwarding the Substack emails directly to the same email didn't always work for me. I also found that someone had already solved this problem by building , but 
+1. Substack can email you new posts when they are published. These emails are formatted with HTML.
+2. You can send documents straight to your Kindle via a special email address assigned to your Kindle. You just attach the document to an email. (You can also do this via web portal and Google Chrome extension.)
+3. Google Apps Script lets you programmatically interact with your Gmail inbox (e.g., reading, labeling, archiving, and sending emails).
+4. Gmail supports filtering by sender and label.
+5. Cheerio is a library that supports HTML parsing and modifying, and has been ported over for Google Apps Script thanks to TODO.
 
 ## Vision
 
