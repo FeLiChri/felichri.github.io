@@ -1,6 +1,8 @@
 # How to send Substack posts straight to your Kindle using Google App Scripts
 
-Last year a friend of mine gifted me an old Kindle. I never quite made the jump to reading books on it -- my "to read" pile was already pretty large and physically present, sitting on my shelves and the shelves of my nearby library -- but, I had been an avid reader of a couple Substack newsletters, and found myself wishing the Kindle could automatically sync those. Then I would have a physical, book-ish object on which to read all those lovely essays!
+Last year a friend of mine gifted me an old Kindle. I never quite made the jump to reading books on it, since my "to read" pile was already pretty large and physically sitting on my shelves and the shelves of my nearby library. But, I found myself wishing I could use it to read the [Substack](https://substack.com/) newsletters I had been devouring from my tiny phone screen. If I could automatically sync those to the Kindle I'd have a physical, book-ish object on which to read all those lovely essays!
+
+I took a break from the idea, but came back to it recently and built out a working solution in a weekend, using [Google Apps Script](https://developers.google.com/apps-script), [Send to Kindle](https://www.amazon.com/sendtokindle/email), and a bit of HTML munging. Best of all, the solution ended up easily extending to other newsletters that land in my email but don't route through Substack, like Oliver Burkeman's ["The Imperfectionist"](https://www.oliverburkeman.com/the-imperfectionist). 
 
 ## Existing Solutions and Infrastructure
 
